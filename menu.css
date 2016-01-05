@@ -1,0 +1,105 @@
+
+*{
+	padding: 0px;
+	margin: 0px;
+}
+body{
+	background-color: #efefef;
+	padding: 0px;
+	margin: 0px;
+}
+.menu{
+	width: 100%;
+	height: 60px;
+	background: #414146;
+	float: left;
+	z-index: 9999;
+	position: fixed;
+}
+
+.center{
+	width: 70%;
+	height: 60px;
+	margin: 0 auto;
+}
+.center ul{
+	width: 70%;
+	height: 60px;
+	float: left;
+}
+.center ul li{
+	width: 50px;
+	padding: 22px 35px;
+	list-style: none;
+	float: left;
+	text-align: center;
+	color: #fff;
+	font-family: 'OswaldLight',Arial,Helvetica,sans-serif;
+	font-size: 13px;
+}
+.center ul li:first-child{
+	background-color: #ffea00;
+	color: #414146 !important;
+	border-right: 1px solid #414146;
+}
+.center ul li:hover{
+	background-color: #ffea00;
+	transition: all 0.3s;
+	color: #414146;
+	cursor: pointer;
+}
+.center .input{
+	width: 30%;
+	height: 55px;
+	float: right;
+}
+.center input{
+	width: 85%;
+	height: 60px;
+	border: none !important;
+	color: #c1c1c1 !important;
+	display: block !important;
+	float: left !important;
+	margin: 0 !important;
+	font-style: normal !important;
+	padding: 9px 10px !important;
+	background-attachment: scroll;
+	background-color: #565a60;
+	background-image: none;
+	background-repeat: repeat;
+	background-position: 0 0;
+	font-family: 'OswaldLight',Arial,Helvetica,sans-serif;
+}
+.center .search{
+	padding: 0;
+	width: 15%;
+	height: 60px;
+	float: right;
+	background-repeat: no-repeat;
+	background-position: center center;
+	transition: all 0.3s;
+	background-attachment: scroll;
+	background-color: #565a60;
+	
+}
+.center .search:hover{
+	background: #ffea00;
+	transition: all 0.3s;
+	color: #fff !important;
+	cursor: pointer;
+}
+.main{
+	width: 100%;
+	height: auto;
+	float: left;
+	margin-top: 55px;
+}
+.main p{
+	width: 70%;
+	height: auto;
+	margin: 0 auto;
+	padding: 10px;
+	font-family: 'OswaldLight',Arial,Helvetica,sans-serif;
+	font-size: 15px;
+	text-align: justify;
+}
